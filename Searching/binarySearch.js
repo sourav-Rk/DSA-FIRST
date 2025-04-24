@@ -13,7 +13,7 @@ function binarySearch(arr,target){
 
 //recursive binary search
 function binarySearchRecursive(arr,target,leftIndex,rightIndex) {
-    if(leftIndex >= rightIndex) return -1
+    if(leftIndex > rightIndex) return -1
 
     let middleIndex = Math.floor((leftIndex + rightIndex)/2);
     if(arr[middleIndex] === target) return middleIndex
