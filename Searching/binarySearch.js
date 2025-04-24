@@ -26,5 +26,5 @@ function binarySearchRecursive(arr,target,leftIndex,rightIndex) {
 }
 
 const arr = [1,3,5,5,6,7]
-console.log(binarySearchRecursive(arr,5,0,arr.length));
+console.log(binarySearchRecursive(arr,5,0,arr.length-1));
 
